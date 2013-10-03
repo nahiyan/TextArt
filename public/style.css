@@ -1,0 +1,13 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 60%;
+	color: #666;
+	font-family: Courier New;
+}
+span.white {
+	color: white;
+}
