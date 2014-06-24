@@ -1,9 +1,11 @@
 <?php
 
+namespace Nahiyan\TextArt;
+
 class Canvas {
 	private $pointCoords = array (null), $width, $height, $backgroundCharacter = '&nbsp;';
 	
-	const WHITE_CHARACTER = "<span class='white'>0</span>";
+	const WHITE_CHARACTER = "&nbsp;";
 	
 	public function __construct ($width, $height) {
 		$this->width = $width;

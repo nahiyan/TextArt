@@ -2,16 +2,17 @@
 <html>
 
 <head>
-	<link rel='stylesheet' href='http://localhost/textart/public/style.css'/>
+	<link rel='stylesheet' href='public/style.css'/>
 </head>
 <body>
 <?php
 
-require __DIR__.'/classes/Canvas.php';
-require __DIR__.'/classes/SimpleShape.php';
-require __DIR__.'/classes/Rectangle.php';
+require 'vendor/autoload.php';
+use Nahiyan\TextArt\Canvas;
+use Nahiyan\TextArt\Rectangle;
+use Nahiyan\TextArt\SimpleShape;
 
-$canvas = new Canvas (100, 30);
+$canvas = new Canvas(100, 30);
 $canvas->setBackgroundCharacter(Canvas::WHITE_CHARACTER);
 
 $canvas->add(new Rectangle(5, 2, 10, 5));
