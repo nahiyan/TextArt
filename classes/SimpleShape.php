@@ -1,5 +1,7 @@
 <?php
 
+namespace Nahiyan\TextArt;
+
 class SimpleShape {
 	protected $posX, $posY, $width, $height, $pointCoords, $backgroundCharacter = '&#9679;';
 	

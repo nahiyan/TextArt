@@ -1,5 +1,7 @@
 <?php
 
+namespace Nahiyan\TextArt;
+
 class Rectangle extends SimpleShape {
 	
 	public function __construct ($posX, $posY, $width, $height) {
